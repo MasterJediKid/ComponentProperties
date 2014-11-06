@@ -1,4 +1,4 @@
-package com.jedikid.common.com.jedikid.common.config;
+package com.jedikid.common.config;
 
 /**
  * @author MasterJediKid

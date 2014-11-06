@@ -1,4 +1,4 @@
-package com.jedikid.common.com.jedikid.common.config;
+package com.jedikid.common.config;
 
 import java.io.IOException;
 import java.io.InputStream;
