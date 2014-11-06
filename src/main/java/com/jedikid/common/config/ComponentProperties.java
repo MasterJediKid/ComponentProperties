@@ -17,11 +17,11 @@ public class ComponentProperties extends Properties{
     
     private static final String CONFIG = "/conf/component.properties";
     
-    public static ComponentProperties getInstance() {
+    private static ComponentProperties getInstance() {
         return singleton;
     }
     
-    public String getPropertyValueFor(String property) {
+    public static String getPropertyValueFor(String property) {
         String value = getInstance().getProperty(property);
         
         if(value != null)
